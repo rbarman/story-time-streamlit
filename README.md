@@ -15,16 +15,5 @@ GROQ_API_KEY="YOUR_GROQ_API_KEY"
 OPENAI_API_KEY="YOUR_OPEAI_API_KEY"
 ```
 
-Or set environment variables:
-
-$env:GROQ_API_KEY="GROQ API KEY"
-$env:OPENAI_API_KEY="OPEN AI APK KEY"
-
-To reset:
-
-$env:GROQ_API_KEY = $null
-$env:OPENAI_API_KEY = $null
-
-
 # Run
 streamlit run app.py

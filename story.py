@@ -1,5 +1,6 @@
-from MyAI.text import call_chat_completion
-from MyAI.image import call_image_generation
+# from MyAI.text import call_chat_completion
+# from MyAI.image import call_image_generation
+from ai import call_chat_completion, call_image_generation
 from typing import List, Optional
 from dataclasses import dataclass
 
